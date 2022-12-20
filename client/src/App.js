@@ -1,12 +1,13 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import Register from './views/Register/Register';
 
 function App() {
   return (
     <div>
       <Navbar/>
       <div className='container'>
-      <h1 className='text-center'>KTF-NGO...🌳</h1>
+      <Register/>
       </div>
     </div>
   );
