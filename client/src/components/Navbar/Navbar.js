@@ -32,10 +32,8 @@ function Navbar() {
           <a className="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
         </li>
       </ul>
-      <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+        <button type="button" class="btn btn-outline-secondary me-2">Login</button>
+        <button type="button" class="btn btn-outline-secondary">Register</button>
     </div>
   </div>
 </nav>
