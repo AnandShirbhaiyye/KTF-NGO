@@ -1,6 +1,5 @@
 .head-title{
-    background-color: lavender;
-    padding: 20px;
+    padding: 15px;
     border: 5px double black;
     border-radius: 15px;
     cursor: pointer;
@@ -8,4 +7,13 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 5px 5px 10px 2px gray;
+}
+.head-title:hover{
+    box-shadow: 8px 8px 12px 2px gray;
+    transition: 0.5s;
+}
+.header-display-image {
+    max-height: 300px !important;
+    min-height: 350px !important;
 }

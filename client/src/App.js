@@ -5,6 +5,7 @@ import Register from "./views/Register/Register";
 import Home from "./views/Home/Home";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Material from "./components/MaterialUI/Material";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/material" element={<Material/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
