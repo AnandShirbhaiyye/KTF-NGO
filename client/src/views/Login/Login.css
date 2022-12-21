@@ -1,0 +1,14 @@
+.login-page{
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 15px;
+    display: block;
+    box-shadow: 5px 5px 10px 2px gray;
+}
+.login-page-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
