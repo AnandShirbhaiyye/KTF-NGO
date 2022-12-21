@@ -1,0 +1,11 @@
+.head-title{
+    background-color: lavender;
+    padding: 20px;
+    border: 5px double black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
