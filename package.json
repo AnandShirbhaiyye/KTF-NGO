@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/surajshende247/basic-mern-starter#readme",
   "dependencies": {
-    "concurrently": "^7.1.0"
+    "concurrently": "^7.1.0",
+    "swiper": "^8.4.5"
   }
 }

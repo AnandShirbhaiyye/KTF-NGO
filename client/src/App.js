@@ -5,7 +5,8 @@ import Register from "./views/Register/Register";
 import Home from "./views/Home/Home";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Material from "./components/MaterialUI/Material";
+import Testimonial from "./components/Testimonial/Testimonial";
+
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/material" element={<Material/>} />
+          <Route path="/testimonial" element={<Testimonial/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
