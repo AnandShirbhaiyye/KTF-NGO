@@ -1,4 +1,5 @@
 import React from "react";
+import Testimonial from "../../components/Testimonial/Testimonial";
 import "./Home.css";
 import ktfLogo from "./img/ktf-logo.jpg";
 function Home() {
@@ -32,6 +33,9 @@ function Home() {
             </h4>
           </div>
         </div>
+        <div className="mt-2">
+        <Testimonial/>
+        </div> 
       </div>
     </>
   );
