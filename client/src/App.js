@@ -6,6 +6,8 @@ import Home from "./views/Home/Home";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Testimonial from "./components/Testimonial/Testimonial";
+import Antd from "./components/Antd/Antd";
+import Review from "./components/Review/Review";
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/testimonial" element={<Testimonial/>} />
+          <Route path="/antd" element={<Antd/>} />
+          <Route path="/review" element={<Review/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

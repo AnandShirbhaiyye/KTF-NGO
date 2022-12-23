@@ -28,6 +28,8 @@ function Testimonial() {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
+
+        
         <SwiperSlide>
           <div className="swiper-container">
             <div className="swiper-wrapper">
